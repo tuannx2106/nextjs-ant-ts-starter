@@ -1,1 +1,0 @@
-# nextjs-ant-ts-starter
