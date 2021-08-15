@@ -1,3 +1,4 @@
+import { Button, Space, Switch } from 'antd';
 import React from 'react';
 import s from './HomePage.module.scss';
 
@@ -10,7 +11,11 @@ const HomePage = (props: HomePageProps) => {
 
   return (
     <div className={s.test}>
-      {sampleProps || 'HomePage'}
+      <p>{sampleProps || 'HomePage'}</p>
+      <Space>
+        <Button type="primary">adasd</Button>
+        <Switch />
+      </Space>
     </div>
   );
 };
